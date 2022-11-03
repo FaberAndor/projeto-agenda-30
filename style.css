@@ -5,7 +5,7 @@ body {
 
 a:hover {
    color: green;
-   font-size: 20px;
+   font-size: 18px;
 
 }
 
@@ -36,6 +36,10 @@ a {
 
 #teste>h2:hover {
    color: green;
+}
+
+#pq_reciclar {
+   text-align: justify;
 }
 
 .nav78 {
