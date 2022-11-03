@@ -1,0 +1,46 @@
+html,
+body {
+   height: 100%;
+}
+
+
+#titulo_ponto_coleta {
+   display: flex;
+   justify-content: center;
+   color: black;
+}
+
+#titulo_ponto_coleta:hover {
+   color: green;
+}
+
+.corHover:hover {
+   color: green;
+}
+
+.sombra {
+   box-shadow: 1px 0px 16px 2px rgba(0, 175, 58, 0.27);
+}
+
+#titulo_ponto_coleta>h2 {
+   margin-bottom: 20px;
+}
+
+
+p {
+   text-align: justify;
+}
+
+.nav78 {
+   --bs-nav-link-padding-x: 1rem;
+   --bs-nav-link-padding-y: 0.5rem;
+   --bs-nav-link-font-weight: ;
+   --bs-nav-link-color: black;
+   --bs-nav-link-hover-color: green;
+   --bs-nav-link-disabled-color: #6c757d;
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 0;
+   margin-bottom: 0;
+   list-style: none
+}
