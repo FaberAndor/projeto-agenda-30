@@ -21,6 +21,10 @@ a {
    color: black;
 }
 
+#teste:hover {
+   color: green;
+}
+
 .corHover:hover {
    color: green;
 }
