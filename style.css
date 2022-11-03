@@ -1,7 +1,53 @@
-html, body{
-    height: 100%;
- }
+html,
+body {
+   height: 100%;
+}
 
- a:hover {
-    font-size: 50px;
- }
+a:hover {
+   color: green;
+   font-size: 20px;
+
+}
+
+a {
+   color: red;
+   text-decoration: none;
+   font-style: none;
+}
+
+#teste {
+   display: flex;
+   justify-content: center;
+   color: black;
+}
+
+#teste:hover {
+   color: green;
+}
+
+.sombra {
+   box-shadow: 1px 0px 16px 2px rgba(0, 175, 58, 0.27);
+}
+
+#teste>h2 {
+   margin-bottom: 20px;
+}
+
+
+#teste>h2:hover {
+   color: green;
+}
+
+.nav78 {
+   --bs-nav-link-padding-x: 1rem;
+   --bs-nav-link-padding-y: 0.5rem;
+   --bs-nav-link-font-weight: ;
+   --bs-nav-link-color: black;
+   --bs-nav-link-hover-color: green;
+   --bs-nav-link-disabled-color: #6c757d;
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 0;
+   margin-bottom: 0;
+   list-style: none
+}
