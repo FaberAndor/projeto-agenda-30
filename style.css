@@ -3,25 +3,14 @@ body {
    height: 100%;
 }
 
-a:hover {
-   color: green;
-   font-size: 18px;
 
-}
-
-a {
-   color: red;
-   text-decoration: none;
-   font-style: none;
-}
-
-#teste {
+#titulo_ponto_coleta {
    display: flex;
    justify-content: center;
    color: black;
 }
 
-#teste:hover {
+#titulo_ponto_coleta:hover {
    color: green;
 }
 
@@ -33,16 +22,12 @@ a {
    box-shadow: 1px 0px 16px 2px rgba(0, 175, 58, 0.27);
 }
 
-#teste>h2 {
+#titulo_ponto_coleta>h2 {
    margin-bottom: 20px;
 }
 
 
-#teste>h2:hover {
-   color: green;
-}
-
-#pq_reciclar {
+p {
    text-align: justify;
 }
 
